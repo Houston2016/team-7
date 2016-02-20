@@ -3,25 +3,41 @@
 <head>
     <style type="text/css">
 
-        body {font-family:"Times New Roman", Sans-Serif;}
+        body {font-family:Arial, Sans-Serif;}
 
         #container {width:300px; margin:0 auto;}
 
-        /* Nicely lines up the labels. */
+
         form label {display:inline-block; width:140px;}
 
         /* You could add a class to all the input boxes instead, if you like. That would be safer, and more backwards-compatible */
         form input[type="text"],
         form input[type="password"],
+        form input[type="password_confirm"],
         form input[type="email"] {width:160px;}
-
         form .line {clear:both;}
-        form .line.submit {text-align:right;}
+        form .line.submit {text-align:center;}
 
     </style>
 </head>
 <body>
 <div id="container">
     <form>
-        <h1>Create Logon</h1>
-        <div class="line"><label for="username">Username *: </label><input type="text" id="username" /></div>
+        <h1>Registration Informaiton</h1>
+        <div class="line"><label for="first_name">First Name *: </label><input type="text" id="first_name" /></div>
+        <div class="line"><label for="last_name">Last Name*: </label><input type="password" id="last_name" /></div>
+        <!-- You may want to consider adding a "confirm" password box also -->
+        <div class="line"><label for="phone_number">Phone Number *: </label><input type="text" id="phone_number" /></div>
+        <div class="line"><label for="gender">Gender *: </label><input type="text" id="gender" /></div>
+        <div class="line"><label for="email">Email *: </label><input type="email" id="email" /></div>
+        <div class="line"><label for="tel">Telephone: *</label><input type="text" id="tel" /></div>
+        <div class="line"><label for="username">Desired Username </label><input type="text" id="username" /></div>
+        <div class="line"><label for="password">Set Password: </label><input type="password" id="password" /></div>
+        <div class="line"><label for="password_confirm">Confirm Password </label><input type="password_confirm" id="password_confirm" /></div>
+        <div class="line submit"><input type="submit" value="Submit" /></div>
+
+
+    </form>
+</div>
+</body>
+</html>
