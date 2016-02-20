@@ -29,7 +29,13 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/register', {
+        templateUrl: 'views/register.html',
+        controller: 'RegisterCtrl',
+        controllerAs: 'register'
+      })
       .otherwise({
         redirectTo: '/'
       });
+      
   });

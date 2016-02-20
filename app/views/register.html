@@ -1,0 +1,69 @@
+<div class="container-fluid">
+  <div class="jumbotron">
+    <form role="form">
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="FIRST_NAME">First Name:</label>
+            <input type="text" class="form-control" id="FIRST_NAME" ng-model="$scope.FIRST_NAME">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="LAST_NAME">Last Name:</label>
+            <input type="text" class="form-control" id="LAST_NAME" ng-model="$scope.LAST_NAME">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="EMAIL">Email:</label>
+            <input type="text" class="form-control" id="EMAIL" ng-model="$scope.EMAIL">
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender" ng-model="$scope.GENDER">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="Telephone">Phone Number:</label>
+              <input type="text" class="form-control" id="Telephone" ng-model="$scope.TELEPONE">
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="USERNAME">Username:</label>
+              <input type="text" class="form-control" id="USERNAME" ng-model="$scope.USERNAME">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd">
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="form-group">
+              <label for="cpwd">Confirm Password:</label>
+              <input type="password" class="form-control" id="cpwd" ng-model="$scope.PASSWORD">
+            </div>
+          </div>
+        </div>
+
+        <button type="SUBMIT" class="btn btn-default pull-right" ng-click="changeView()">Submit</button>
+        <hr>
+      </div>

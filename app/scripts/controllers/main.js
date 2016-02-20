@@ -8,10 +8,9 @@
  * Controller of the cfgApp
  */
 angular.module('cfgApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+  .controller('MainCtrl', [ '$scope' ,function($scope){
+    $scope.userSignIn=[
+      {username:$scope.signIn.username},
+      {password:$scope.signIn.password}
     ];
-  });
+  }]);

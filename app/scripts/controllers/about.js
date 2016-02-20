@@ -8,11 +8,12 @@
  * Controller of the cfgApp
  */
 angular.module('cfgApp')
-  .controller('AboutCtrl', function () {
+  .controller('AboutCtrl', function ($scope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
 
   });
