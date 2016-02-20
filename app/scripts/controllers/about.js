@@ -14,10 +14,5 @@ angular.module('cfgApp')
       'AngularJS',
       'Karma'
     ];
-  });
 
-// (function($){
-//   $("#clkBtn").on("click",function(){
-//     $.alert("check");
-//   });
-// })();
+  });
