@@ -1,11 +1,12 @@
-# team-7
-ec2-54-87-114-244.compute-1.amazonaws.com
-username: ubuntu
-password: cfgtomcat!
+# cfg
 
-or for root
-username: root
-password: root
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1.
 
-test
+## Build & development
 
+Run `grunt` for building and `grunt serve` for preview.
+
+## Testing
+
+Running `grunt test` will run the unit tests with karma.
