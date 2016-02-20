@@ -16,7 +16,8 @@ angular.module('cfgApp')
     ];
   });
 
-(function(){
-  $( "#sortable" ).sortable();
-  $( "#sortable" ).disableSelection();
-});
+// (function($){
+//   $("#clkBtn").on("click",function(){
+//     $.alert("check");
+//   });
+// })();
