@@ -6,6 +6,9 @@ version 0.15.1.
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
+ec2-54-197-106-201.compute-1.amazonaws.com
+ubuntu
+cfgtomcat!
 
 ## Testing
 
