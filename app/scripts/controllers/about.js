@@ -15,3 +15,8 @@ angular.module('cfgApp')
       'Karma'
     ];
   });
+
+(function(){
+  $( "#sortable" ).sortable();
+  $( "#sortable" ).disableSelection();
+});

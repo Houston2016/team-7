@@ -8,7 +8,7 @@
 }
 .box {
   background: #999999;
-  height: 200px;
+  height: 100px;
   width: 350px;
   margin: 0 auto;
 }
@@ -52,4 +52,7 @@
   transform: rotate(3deg);
   right: 10px;
   left: auto;
+}
+li{
+  list-style-type: none;
 }

@@ -1,17 +1,43 @@
 <link rel="stylesheet" href="../styles\helper.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <h2>Priority Ranking</h2>
-<div class="box"></div>
+<!-- <div class="text-center sortable">
+  <div class="box">
+    <h1>Value1</h1></div>
+  <br>
+  <div class="box">
+    <h1>Value1</h1></div>
+  <br>
+  <div class="box">
+    <h1>Value3</h1></div>
+  <br>
+  <div class="box">
+    <h1>Value4</h1></div>
+  <br>
+  <div class="box">
+    <h1>Value5</h1></div>
+  <br>
+  <div class="box">
+    <h1>Value6</h1></div> -->
+
+  <ul id="sortable">
+    <li class="box">Item 1</li>
+    <li class="box">Item 2</li>
+    <li class="box">Item 3</li>
+    <li class="box">Item 4</li>
+    <li class="box">Item 5</li>
+    <li class="box">Item 6</li>
+    <li class="box">Item 7</li>
+  </ul>
+
+</div>
 <br>
-<div class="box"></div>
-<br>
-<div class="box"></div>
-<br>
-<div class="box"></div>
-<br>
-<div class="box"></div>
-<br>
-<div class="box"></div>
-<br>
-<<script>
-  window.alert("in there");
-</script>
+<button type="button" name="button" class="btn btn-default">Click</button>
+<script>
+  $(function() {
+    $( "#sortable" ).sortable();
+    $( "#sortable" ).disableSelection();
+  });
+  </script>
